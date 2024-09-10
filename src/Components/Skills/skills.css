@@ -1,0 +1,96 @@
+
+
+.skill {
+    /* width:100%; */
+    display: absolute;
+    left:50%;
+    top:50%;
+    /* transform: translate(-50%, -50%); */
+    /* padding: 0 0 50px 0; */
+    
+    
+    
+    
+  }
+  .skill-container{
+    width:90%;
+    position: relative;
+    /* margin:auto; */
+  }
+  .skill-bx {
+    background-image: linear-gradient(to right, #282362, #121212);
+    background-size: 200% 200%;
+    animation: ripple 2s linear infinite;
+  
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -20px auto;
+  }
+  .skill h2 {
+      font-size: 50px;
+      font-weight: 700;
+  }
+  .skill p {
+      color:#b9b7b7;;
+      font-size: 25px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
+  }
+  .skill-slider {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .skill-slider .item{
+    padding:20px 20px;
+    margin:20px;
+    background-color: #a9a9a9;
+    border: 1px solid white;
+    border-radius: 5px;
+    /* width:100px; */
+    /* height:auto; */
+  }
+  .skill-slider .item img {
+    /* width: 50%; */
+    
+    margin: 0 auto 15px auto;
+  }
+  .background-image-left {
+    top: 38%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  }
+.skill-bx2{
+  border:2px solid white;
+  margin:20px auto;
+  padding:15px 20px;
+  border-radius: 10px;
+}
+.skill-bx2:hover{
+  color:#1F1C42;
+  background-color: white;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+.skill-bx2 .item:hover{
+  background-color:#1F1C42;
+  color: white;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+.skill-bx2 h4{
+  font-size: 30px;
+}
+@keyframes ripple {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 50% 50%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}

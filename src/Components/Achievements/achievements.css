@@ -1,0 +1,40 @@
+.background-image-left {
+    top: 78%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  }
+.achievements h2{
+    text-align:center;
+    font-size: 50px;
+    font-weight: 700;
+    /* margin-bottom: 20px; */
+}
+.achievements {
+  padding: 10px;
+  text-align: center;
+  /* width:100%; */
+  justify-items: center;
+  margin:5%;
+  max-height: 600px;
+}
+
+
+.slick-slide {
+  padding: 20px;
+}
+
+.slick-prev, .slick-next {
+  z-index: 2;
+}
+
+.achievements .card{
+  width:min(75%,600px);
+  /* height:700px; */
+}
+.achievements .card img{
+  /* height:380px; */
+  max-height:400px;
+  /* height:700px; */
+}

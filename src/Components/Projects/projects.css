@@ -1,0 +1,36 @@
+.project{
+    margin:20px auto;
+}
+.project h2{
+    text-align:center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.background-image-left {
+    top: 48%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* right:0; */
+    z-index: -4;
+  }
+.project .nav{
+    justify-content: center;
+}
+.project .nav-link{
+    color:white;
+    
+    
+    font-size: 20px;
+    /* margin:3px; */
+    margin: 15px 20px;
+}
+.project .nav-link:hover,.nav-pills .active-tab,.project .nav-link:active{
+    color: #1F1C42;
+    background-color: white;
+}
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #1F1C42;
+    --bs-nav-pills-link-active-bg: white;
+}
