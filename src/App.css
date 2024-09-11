@@ -25,9 +25,13 @@
 html{
   scroll-behavior: smooth;
   scroll-padding-top:75px;
+  max-width:100%;
+  overflow-x:hidden;
 
 }
 body{
+  max-width:100%;
+  overflow-x:hidden;
   font-weight: 400;
   position: relative;
   background-color: #121212 !important;
@@ -44,13 +48,14 @@ nav.navbar{
   padding:18px 0;
   position: fixed;
   width:100%;
-  top:0;
+  top:10;
   z-index:9999;
-  transition: 0.32 ease-in-out;
+  transition: 0.4 ease-in-out;
 }
 nav.navbar.scrolled{
   padding:0px 0;
   background-color: #121212;
+  position:fixed;
 
 }
 nav.navbar a.navbar-brand{
@@ -164,6 +169,10 @@ nav.navbar .navbar-toggler:focus
  {
 	outline: none;
     box-shadow: none;
+}
+nav.navbar .navbar-toggler{
+  position: absolute;
+  right:50px;
 }
 nav.navbar .navbar-toggler-icon {
   width: 24px;
