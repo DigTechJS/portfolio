@@ -18,8 +18,8 @@ function Achievements() {
     { image: img4, title: 'HackDiva', description: 'Runner Up of HackDiva Hackathon' },
     { image: img7, title: 'Leetcode', description: 'Was Knight at Leetcode' },
     { image: img1, title: 'Amazon ML Summer School', description: 'Attended Amazon ML Summer School 2023' },
-    { image: img2, title: 'CEDCOSS Selection', description: 'Selected for CEDCOSS Internship in October 2023' },
-    { image: img3, title: 'Cloud Computing', description: 'Got Elite+ Gold Batch in NPTEL Cloud Computing Cpurse' },
+    { image: img2, title: 'CEDCOSS Selection', description: 'Selected for CEDCOSS Technologies in October 2023' },
+    { image: img3, title: 'Cloud Computing', description: 'Got Elite + Gold Batch in NPTEL Cloud Computing Course' },
     { image: img5, title: 'Internship', description: 'Completed Internship at Shivankit TechSolutions' },
     { image: img6, title: 'TCS Offer Letter', description: 'Received an offer letter from TCS in March 2024' }
   ];
